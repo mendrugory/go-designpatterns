@@ -4,4 +4,4 @@ Repository created to show different patterns which could be implemented in Go.
 
 ## Patterns
 
-* [Singleton](https://github.com/mendrugory/go-designpatterns/singleton)
+* [Singleton](https://github.com/mendrugory/go-designpatterns/tree/master/singleton)
