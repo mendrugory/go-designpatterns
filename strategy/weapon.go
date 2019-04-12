@@ -1,11 +1,10 @@
 package strategy
 
-
 import (
 	"fmt"
 )
 
-// Weapon interface 
+// Weapon interface
 type Weapon interface {
 	Attack() string
 }
@@ -23,7 +22,7 @@ type Axe struct {
 // Poison struct
 type Poison struct {
 	Composition string
-	Name string
+	Name        string
 }
 
 // Knife struct

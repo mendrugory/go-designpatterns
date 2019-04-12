@@ -1,8 +1,8 @@
 package strategy
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
 func TestKnightSetWeapon(t *testing.T) {
@@ -25,7 +25,6 @@ func TestKnightSwitchWeapon(t *testing.T) {
 		t.Errorf("The weapons are different.\n")
 	}
 }
-
 
 func TestQueenTryingWeapons(t *testing.T) {
 	knife := Knife{Name: "Cuchillito"}
@@ -52,7 +51,6 @@ func TestQueenTryingWeapons(t *testing.T) {
 		t.Errorf("The weapon is not the poison.\n")
 	}
 }
-
 
 func TestKingFighting(t *testing.T) {
 	kingName := "Fernan"

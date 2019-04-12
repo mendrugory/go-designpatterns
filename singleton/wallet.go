@@ -14,7 +14,7 @@ func GetWallet() *wallet {
 	return instance
 }
 
-// Deposit adds the given amount to the wallet 
+// Deposit adds the given amount to the wallet
 func (w *wallet) Deposit(amount float32) {
 	w.amount += amount
 }
